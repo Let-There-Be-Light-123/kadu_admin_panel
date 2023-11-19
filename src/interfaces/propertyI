@@ -1,0 +1,21 @@
+const propertyModel = {
+    id: 0,
+    propertyId: 0,
+    imgUrl: '',
+    amenities: {
+      wifi: false,
+      swimmingPool: false,
+      balcony: false,
+      laundry: false,
+      // Add more amenities as needed
+    },
+    propertyDescription: "",
+    title: 'Luxury Hotel A',
+    category: 'Hotel',
+    isActive: true,
+    isFeatured: true,
+    location: 'City A',
+  };
+  
+  console.log(propertyModel);
+  
